@@ -5,5 +5,6 @@ let router = express.Router();
 router.get('/', (req, res, next) => {
     res.send("Apple");
 });
+app.use('/api/', router);
 
 
